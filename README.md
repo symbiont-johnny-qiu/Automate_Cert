@@ -1,4 +1,4 @@
-# Automate_Cert
+# Automate_Create_Gandi_SSLCert
 
 Purpose of the script is to use Gandi API to automate SSL certificate creation and apply changes directly to AWS 
 
