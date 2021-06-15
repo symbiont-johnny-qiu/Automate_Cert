@@ -14,8 +14,8 @@ Purpose of the script is to use Gandi API to automate SSL certificate creation a
 ```
 chmod u+x gandi_automate.sh
 ``` 
-* Pass in the CSR file that you want to generate a cert with and the script will output the necessary information in the process , timer has been set to around ~5 minutes for creation/validation of cert  to take place.
-EX:
+* Pass in the CSR file that you want to generate a cert with and the script will apply changes while outputting the necessary information in the process , timer has been set to around ~5 minutes for creation/validation of cert  to take place.
+</br>EX:
 ```
 ./gandi_automate.sh ledger-XXX.csr
 ```
