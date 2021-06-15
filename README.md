@@ -4,6 +4,7 @@ Purpose of the script is to use Gandi API to automate SSL certificate creation a
 
 
 ## Getting Started
+*Quick note : Hosted Zone in Route53_add_record.py should be changed depending on the zone you want to create the record 
 
 ### Dependencies
 * Must have 'jq' package installed for parsing JSON in script. Link to jq documentation and install instructions https://stedolan.github.io/jq/download/
@@ -19,3 +20,10 @@ chmod u+x gandi_automate.sh
 ```
 ./gandi_automate.sh ledger-XXX.csr
 ```
+Depending on the python version you are using ex : python3 python2.9 .. etc you can change on the script to fit your needs
+```
+EX: python3.9 Route53_add_record.py
+```
+
+
+
