@@ -31,7 +31,7 @@ get_record_value=$(echo $get_dns | awk '{print $12}' | sed 's/"//')
 echo -e "\nThe record name is :" $get_record_name 
 echo -e "\nThe record value is :" $get_record_value
 
-#Pass parameters to python fiel
+#Pass parameters to python file
 Route53_add_record.py $get_record_name $get_record_value
 
 

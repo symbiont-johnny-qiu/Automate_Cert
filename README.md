@@ -6,7 +6,7 @@ Purpose of the script is to use Gandi API to automate SSL certificate creation a
 ## Getting Started
 
 ### Dependencies
-* Must have 'jq' package installed for parsing JSON in script
+* Must have 'jq' package installed for parsing JSON in script. Link to jq documentation and install instructions https://stedolan.github.io/jq/download/
 * Please have boto downloaded as well with the right credentials in ~./aws 
 
 ### Executing program
