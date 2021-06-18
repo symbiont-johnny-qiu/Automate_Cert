@@ -4,12 +4,12 @@ Purpose of the script is to use Gandi API to automate SSL certificate creation a
 
 
 ## Getting Started
-*Quick note : Hosted Zone in Route53_add_record.py should be changed depending on the zone you want to create the record 
-*A sleep timer is set to two minutes for validating credentials, it is important not to interrupt this process during the script 
+* Quick note : Hosted Zone in Route53_add_record.py should be changed depending on the zone you want to create the record 
+* A sleep timer is set to two minutes for validating credentials, it is important not to interrupt this process during the script 
 
 ### Dependencies
 * Must have 'jq' package installed for parsing JSON in script. Link to jq documentation and install instructions https://stedolan.github.io/jq/download/
-* Please have boto downloaded as well with the right credentials in ~./aws 
+* Please have python boto module downloaded as well with the right credentials in ~./aws 
 
 ### Executing program
 * Make sure you have the necessary permissions to run script 
